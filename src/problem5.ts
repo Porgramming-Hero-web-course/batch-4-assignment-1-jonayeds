@@ -8,4 +8,9 @@ const student ={
     name:"abc",
     id:101
 }
-console.log(getProperty(student,"name"))
+const employee={
+    name:"A",
+    salary:100,
+    currency:"$"
+}
+console.log(getProperty(employee,"currency"))
